@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="menu.css">
+    <script langue ="javascript " src= "./javascript/menu.js"></script>
+    <title>Menu</title>
+</head>
+<body>
+    <form>
+        <h3>MENU</h3>
+        <p>Hãy Ghé Vào Đây </p> 
+        <p>Quý Khách Vui Lòng Chọn:</p>
+        Nước Ngọt:
+        <select id="nuocngot"> Nước ngọt </br> </br>
+            <option value="">7up</option>
+            <option value="">Nước suối</option>
+            <option value="">Sting </option>
+            <option value="">Pepsi </option>
+            <option value="">CoCa </option>
+            <option value="">Nước ép</option>
+        </select>
+        </br> </br>
+        Trái Cây:
+        <select id="traicay"> Trái Cây </br> </br>
+            <option value="">Xoài</option>
+            <option value="">Ổi</option>
+            <option value="">Táo</option>
+            <option value="">Đào</option>
+        </select>
+        </br> </br>
+        Số Tiền: 
+        <input type="number" id="money">  </br> </br>
+        <input type="button" onclick="functionOK()" value="OK">
+        <input type="button" onclick="functionCancle()" value="Cancle"> </br> </br>
+        <div> </br>
+            <button id="myBtn">Chúc Quý Khách Ngon Miệng</button>  </br> </br>
+            Tiền Còn Lại:
+            <input type="text" id="sum" value="">
+        </div>
+        <p id="kq"></p>
+    </form>
+</body>
+</html>
